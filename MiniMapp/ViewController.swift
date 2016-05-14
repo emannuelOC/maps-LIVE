@@ -111,8 +111,10 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         
         let frame = CGRect(x: 0, y: 0, width: 50, height: 50)
         let imageView = UIImageView(frame: frame)
+        imageView.image = UIImage(named: "img")
         
-        
+        // .. configure
+        anView?.addSubview(imageView)
         return anView
     }
     
