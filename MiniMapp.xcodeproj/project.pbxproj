@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C94565B31CE75A5100EF950B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94565B21CE75A5100EF950B /* AppDelegate.swift */; };
+		C94565B51CE75A5200EF950B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94565B41CE75A5200EF950B /* ViewController.swift */; };
+		C94565B81CE75A5200EF950B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94565B61CE75A5200EF950B /* Main.storyboard */; };
+		C94565BB1CE75A5200EF950B /* MiniMapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C94565B91CE75A5200EF950B /* MiniMapp.xcdatamodeld */; };
+		C94565BD1CE75A5200EF950B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C94565BC1CE75A5200EF950B /* Assets.xcassets */; };
+		C94565C01CE75A5200EF950B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C94565BE1CE75A5200EF950B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C94565AF1CE75A5100EF950B /* MiniMapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniMapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94565B21CE75A5100EF950B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C94565B41CE75A5200EF950B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C94565B71CE75A5200EF950B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C94565BA1CE75A5200EF950B /* MiniMapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MiniMapp.xcdatamodel; sourceTree = "<group>"; };
+		C94565BC1CE75A5200EF950B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C94565BF1CE75A5200EF950B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C94565C11CE75A5200EF950B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C94565AC1CE75A5100EF950B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C94565A61CE75A5100EF950B = {
+			isa = PBXGroup;
+			children = (
+				C94565B11CE75A5100EF950B /* MiniMapp */,
+				C94565B01CE75A5100EF950B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C94565B01CE75A5100EF950B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C94565AF1CE75A5100EF950B /* MiniMapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C94565B11CE75A5100EF950B /* MiniMapp */ = {
+			isa = PBXGroup;
+			children = (
+				C94565B21CE75A5100EF950B /* AppDelegate.swift */,
+				C94565B41CE75A5200EF950B /* ViewController.swift */,
+				C94565B61CE75A5200EF950B /* Main.storyboard */,
+				C94565BC1CE75A5200EF950B /* Assets.xcassets */,
+				C94565BE1CE75A5200EF950B /* LaunchScreen.storyboard */,
+				C94565C11CE75A5200EF950B /* Info.plist */,
+				C94565B91CE75A5200EF950B /* MiniMapp.xcdatamodeld */,
+			);
+			path = MiniMapp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C94565AE1CE75A5100EF950B /* MiniMapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C94565C41CE75A5200EF950B /* Build configuration list for PBXNativeTarget "MiniMapp" */;
+			buildPhases = (
+				C94565AB1CE75A5100EF950B /* Sources */,
+				C94565AC1CE75A5100EF950B /* Frameworks */,
+				C94565AD1CE75A5100EF950B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniMapp;
+			productName = MiniMapp;
+			productReference = C94565AF1CE75A5100EF950B /* MiniMapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C94565A71CE75A5100EF950B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Emannuel Carvalho";
+				TargetAttributes = {
+					C94565AE1CE75A5100EF950B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = C94565AA1CE75A5100EF950B /* Build configuration list for PBXProject "MiniMapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C94565A61CE75A5100EF950B;
+			productRefGroup = C94565B01CE75A5100EF950B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C94565AE1CE75A5100EF950B /* MiniMapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C94565AD1CE75A5100EF950B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94565C01CE75A5200EF950B /* LaunchScreen.storyboard in Resources */,
+				C94565BD1CE75A5200EF950B /* Assets.xcassets in Resources */,
+				C94565B81CE75A5200EF950B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C94565AB1CE75A5100EF950B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94565B51CE75A5200EF950B /* ViewController.swift in Sources */,
+				C94565B31CE75A5100EF950B /* AppDelegate.swift in Sources */,
+				C94565BB1CE75A5200EF950B /* MiniMapp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C94565B61CE75A5200EF950B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C94565B71CE75A5200EF950B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C94565BE1CE75A5200EF950B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C94565BF1CE75A5200EF950B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C94565C21CE75A5200EF950B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C94565C31CE75A5200EF950B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C94565C51CE75A5200EF950B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniMapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OC.MiniMapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C94565C61CE75A5200EF950B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniMapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OC.MiniMapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C94565AA1CE75A5100EF950B /* Build configuration list for PBXProject "MiniMapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94565C21CE75A5200EF950B /* Debug */,
+				C94565C31CE75A5200EF950B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C94565C41CE75A5200EF950B /* Build configuration list for PBXNativeTarget "MiniMapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C94565C51CE75A5200EF950B /* Debug */,
+				C94565C61CE75A5200EF950B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C94565B91CE75A5200EF950B /* MiniMapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C94565BA1CE75A5200EF950B /* MiniMapp.xcdatamodel */,
+			);
+			currentVersion = C94565BA1CE75A5200EF950B /* MiniMapp.xcdatamodel */;
+			path = MiniMapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C94565A71CE75A5100EF950B /* Project object */;
+}
